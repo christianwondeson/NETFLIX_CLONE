@@ -1,0 +1,30 @@
+.navigation {
+    font-family: monospace;
+    color: white;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navContainer
+{
+    display: flex;
+    margin-left: 1rem;
+}
+.navbars {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navList
+{
+    margin: 0px 1rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.logo{
+    max-width: 92px;
+    height: fit-content;
+}
