@@ -1,5 +1,7 @@
 import Navigation from './components/Navigation';
 
+import './App.css';
+
 import './components/netflix-clone_assets/normalize.css';
 
 import Billboard from './components/Billboard';
@@ -14,7 +16,7 @@ function App() {
             <Navigation />
             <Billboard />
             <Title />
-            <Footer/>
+            <Footer />
         </div>
     );
 }

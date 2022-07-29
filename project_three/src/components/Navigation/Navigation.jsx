@@ -16,7 +16,7 @@ class Navigation extends Component {
                 <img src={Netflix_image } alt="Netflix_image" className={style.logo} />
                 <ul className={style.navbars}>
                     {Navigation.map(navs => (
-                        <li key={navs} className={style.navList} >{navs}</li>
+                        <li key={navs} className={style.navList} > <a href="">{navs}</a></li>
                     ))}
                 </ul>
                 </div>

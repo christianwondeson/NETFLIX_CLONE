@@ -9,7 +9,7 @@ class Search extends Component {
     render() { 
         return ( 
             <div className={style.search}>
-                <SearchIcon />
+                <a href="/"><SearchIcon/></a>
             </div>
          );
     }

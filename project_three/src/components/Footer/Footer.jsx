@@ -2,10 +2,16 @@ import React, { Component } from 'react';
 
 import style from './Footer.module.css';
 
+import FooterSocialLink from '../FooterSocialLink';
+import FooterLinks from '../FooterLinks';
+
 class Footer extends Component {
     state = {};
     render() {
-        return <div className={style.Footer}>Footer</div>;
+        return <footer>
+            <FooterSocialLink />
+            <FooterLinks />
+        </footer>;
     }
 }
 

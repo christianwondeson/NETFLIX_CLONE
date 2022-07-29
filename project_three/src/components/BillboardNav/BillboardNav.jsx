@@ -5,14 +5,16 @@ import style from './Billboard.module.css';
 import BillboardIcon from './BillboardIcon';
 
 class BillboardNav extends Component {
-    state = {  } 
-    render() { 
+    state = {};
+    render() {
         return (
             <div className={style.billboard}>
-                <BillboardIcon />
+                <a href="">
+                    <BillboardIcon />
+                </a>
             </div>
         );
     }
 }
- 
+
 export default BillboardNav;

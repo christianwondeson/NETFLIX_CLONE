@@ -4,8 +4,13 @@
 }
 .User
 {
-    height: 50px;
-    width: 50px;
-    color: green;
+    height: 30px;
+    width: 30px;
+    background-color:url('../netflix-clone_assets/billboard.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    object-fit: contain;
+    cursor: pointer;
     border: 1px solid white;
 }

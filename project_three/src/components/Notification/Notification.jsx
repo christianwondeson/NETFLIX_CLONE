@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 
-import style from './Notifcation.module.css'
+import style from './Notifcation.module.css';
 
 import NotIcon from './NotificationIcon';
 
 class Notification extends Component {
-    state = {  } 
-    render() { 
+    state = {};
+    render() {
         return (
             <div className={style.Notification}>
-                <NotIcon />
+                <a href="">
+                    <NotIcon />
+                </a>
             </div>
         );
     }
 }
- 
+
 export default Notification;

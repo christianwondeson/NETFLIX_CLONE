@@ -12,10 +12,18 @@ class SecondaryNav extends Component {
     render() {
         return (
             <div className={style.secondaryNav}>
-                <Search />
-                <Notification />
-                <Usermenu />
-                <BillboardNav />
+                <div className={style.navitem}>
+                   <Search /> 
+                </div>
+                <div className={style.navitem}>
+                    <Notification />
+                    </div>
+                    <div className={style.navitem}>
+                    <Usermenu />
+                    </div>
+                    <div className={style.navitem}>
+                    <BillboardNav />
+                    </div>
             </div>
         );
     }

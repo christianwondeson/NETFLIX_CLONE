@@ -1,5 +1,7 @@
 .secondaryNav {
-    border: 1px solid white;
     display: flex;
     align-items: center;
+}
+.navitem {
+    margin-left: 2rem;
 }

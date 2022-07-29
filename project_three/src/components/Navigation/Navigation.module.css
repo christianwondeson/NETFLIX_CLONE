@@ -5,11 +5,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    margin: 0 40px;
 }
-.navContainer
-{
+.navContainer {
     display: flex;
-    margin-left: 1rem;
 }
 .navbars {
     padding: 0px;
@@ -18,13 +21,17 @@
     display: flex;
     align-items: center;
 }
-.navList
-{
+.navList {
     margin: 0px 1rem;
-    cursor: pointer;
     font-size: 0.8rem;
 }
-.logo{
+.logo {
     max-width: 92px;
     height: fit-content;
+}
+
+.navList > a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
